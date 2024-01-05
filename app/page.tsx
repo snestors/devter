@@ -8,6 +8,8 @@ export default async function Home() {
 
   const {data: posts } = await supabase.from("posts").select("*");
 
+  
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       Hola Mundo 😁
